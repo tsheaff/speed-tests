@@ -9,3 +9,4 @@ for (let i = 0; i < 100000000; i++) {
 }
 
 console.log('OUTPUT: Finished with all', array.length, 'iterations');
+console.log('OUTPUT: Total time', `${new Date() - timeStarted}ms`);
